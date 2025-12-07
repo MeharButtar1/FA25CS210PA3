@@ -154,8 +154,9 @@ bool dfs(int r, int c, const vector<vector<int>>& maze, vector<vector<bool>>& vi
 // ----------------------------------------------------------
 int main() {
     int N, M;
-
     cout << "Enter maze dimensions N M: ";
+
+    //I know we weren't supposed to worry to much about error checks but I did anyway
   if (!(cin >> N >> M) || N <= 0 || M <= 0) {
       cout << "Error: Invalid input. Please enter two integers.\n";
         return 1;
